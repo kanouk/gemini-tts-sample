@@ -29,7 +29,7 @@ function App() {
       <button
         onClick={() => setIsDark(!isDark)}
         className="fixed top-4 right-4 p-2 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
-        aria-label="ダークモード切り替え"
+        aria-label="テーマ切り替え"
       >
         {isDark ? (
           <Sun className="w-6 h-6 text-yellow-500" />
